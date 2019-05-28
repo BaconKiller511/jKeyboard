@@ -96,8 +96,35 @@ public class keyboard extends JPanel implements KeyListener{
          case KeyEvent.VK_T:
             channels[instrument].noteOn(id("D#"),volume);
             break;  
-       case KeyEvent.VK_U:
+         case KeyEvent.VK_U:
             channels[instrument].noteOn(id("F#"),volume);
+            break;
+         case KeyEvent.1:
+            instrument = 1;
+            break;
+         case KeyEvent.2:
+            instrument = 2;
+            break;
+         case KeyEvent.3:
+            instrument = 3;
+            break;
+         case KeyEvent.4:
+            instrument = 4;
+            break;
+         case KeyEvent.5:
+            instrument = 5;
+            break;
+         case KeyEvent.6:
+            instrument = 6;
+            break;
+         case KeyEvent.7:
+            instrument = 7;
+            break;
+         case KeyEvent.8:
+            instrument = 8;
+            break;
+         case KeyEvent.9:
+            instrument = 9;
             break;
     }     
    }
